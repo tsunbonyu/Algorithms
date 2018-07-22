@@ -15,7 +15,7 @@ public class BinarySearch{
         for(int i = 0 ; i < intStringArray.length ; i++){
             intArray[i] = Integer.parseInt(intStringArray[i]);
         }
-        System.out.println("Enter the integer to search (Integer): ");
+        System.out.println("Enter the integer to search (Integer ------): ");
         int target = input.nextInt();
         long result = Arrays.stream(intArray).filter(i -> i == target).count();
         if(result != 0){
